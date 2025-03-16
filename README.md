@@ -8,7 +8,8 @@ Usage
 ```
 cd ~/catkin_ws/src
 git clone git@github.com:angusleigh/leg_tracker.git
-sudo apt install python-scipy
+sudo apt install python3-scipy
+sudo apt install python3-pip
 sudo pip install pykalman  # (or use easy_install: http://pykalman.github.io/#installation)
 cd ~/catkin_ws
 catkin_make
